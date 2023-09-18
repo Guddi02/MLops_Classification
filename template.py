@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]:%(message)s:')  #this will generate logging info and format as the current time of executing the code with the message you want to put
 
 
-project_name = "cknClassifier"
+project_name = "/cknClassifier"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -22,7 +22,8 @@ list_of_files = [
     "parameters.yaml",
     "requirements.txt",
     "setup.py",
-    "research/trials.ipynb"
+    "research/trials.ipynb",
+    "templates/index.html"
     
 ]
 
